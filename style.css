@@ -1,0 +1,147 @@
+body {
+margin: 0;
+background-color: lightgray;
+font-family: Arial, sans-serif;
+}
+
+h1 {
+font-size:20px;
+margin: 0;
+margin-bottom: 8px;
+}
+
+p {
+font-size:14px;
+margin:0;
+margin-bottom:6px;
+}
+
+.phone {
+max-width:400px;
+margin: auto;
+min-height: 700px;
+background-color: white; 
+}
+
+.content {
+padding:16px;
+padding-bottom: 90px;
+}
+
+header {
+display: flex;
+flex-direction: column;
+margin-bottom: 16px;
+}
+
+input {
+padding: 12px;
+border:1px solid grey;
+border-radius: 8px;
+}
+
+.banner {
+background:linear-gradient(135deg,#dc2626, #f87171);
+color: white;
+padding: 20px;
+border-radius: 12px;
+margin-bottom: 16px;
+}
+
+.code {
+display: inline-block;
+background-color: white;
+color: #f97316;
+padding: 8px 12px;
+border-radius: 6px;
+font-size: 13px;
+font-weight: bold;
+}
+
+.icon {
+display: block;
+font-size: 24px;
+}
+
+.categories{
+display: flex;
+margin-bottom: 16px;
+}
+
+.category{ 
+width: 20%;
+margin-right:4%;
+padding: 10px 0;
+border:1px solid lightgray;
+border-radius:10px;
+text-align: center;
+font-size: 12px;
+font-weight: bold;
+}
+
+.store {
+border: 1px solid lightGrey;
+border-radius: 12px;
+padding: 12px;
+}
+
+.cover {
+background-color: #fed7aa;
+padding: 25px;
+font-size: 36px;
+text-align: center;
+margin-bottom: 12px;
+}
+
+.row{
+display: flex;
+}
+
+.name {
+margin-bottom:0;
+margin-right: 12px;
+}
+
+.rating {
+background-color: green;
+color: white;
+padding: 4px 10px;
+border-radius: 6px;
+font-size:13px;
+font-weight: bold;
+}
+
+.time {
+color: #f97316;
+font-weight: bold; 
+}
+
+footer {
+font-size: 12px;
+color: grey;
+text-align: center;
+margin-top: 40px;
+}
+
+nav {
+position: fixed;
+bottom: 0;
+left: 50%;
+transform:translate(-50%);
+width:400px;
+display: flex; 
+background-color: white;
+color: grey; 
+padding: 10px 0;
+}
+
+.tab{
+width: 25%;
+text-align: center;
+font-size: 12px;
+}
+
+.active {
+color: #f97316;
+font-weight: bold;
+}
